@@ -1,0 +1,79 @@
+<view class='bodysize'>
+  <view class='gundongsize'>
+    <swiper class='schoolsize' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:key='{{index}}' wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='iconsize'>
+    <!-- <image src='/images/KBCX.png' class='imgsize1' bindtap='timetable'></image> -->
+    <image src='/images/XYKCZ.png' class='imgsize1' bindtap='cardcharge'></image>
+    <image src='/images/WFCZ.png' class='imgsize' bindtap='netcharge'></image>
+    <image src='/images/GDSH.png' class='imgsize' bindtap='ccutlife'></image>
+  </view>
+  <view class='fontsize'>
+    <!-- <text class='fontstyle2' bindtap='timetable'>课表查询</text> -->
+    <text class='fontstyle2' bindtap='cardcharge'>校园卡充值</text>
+    <text class='fontstyle' bindtap='netcharge'>网费充值</text>
+    <text class='fontstyle3' bindtap='ccutlife'>工大贴吧</text>
+  </view>
+  <view class='gonggao'>
+    <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="2000">
+      <block wx:for="{{msgList}}" wx:key="{{item.index}}">
+        <navigator url="/pages/index/index?title={{item.url}}" open-type="navigate">
+          <swiper-item>
+            <view class="swiper_item">{{item.title}}</view>
+          </swiper-item>
+        </navigator>
+      </block>
+    </swiper>
+  </view>
+  <view class='xinwensize'>
+    <view class='sellimg'>
+      <image src='/images/book.png' mode='aspectFill' class='biaoti'></image>
+    </view>
+    <view class='sell'>
+      <scroll-view scroll-x class="scroll-header">
+        <view class='sell1' wx:for="{{booklist}}" wx:key="{{price}}">
+          <view class='imgh'>
+            <image src='{{item.pic}}' class='bookimg' bindtap='bookdetail' id='{{item.id}}'></image>
+          </view>
+          <view class='sellfontdiv2'>
+            <view class='font22'> {{item.bookname}}</view>
+            <!-- <text decode='true' class='font22'>{{item.bookname}}</text> -->
+            <view class='font33'>￥{{item.price}}</view>
+            <!-- <text class='font33'>￥{{item.price}}</text> -->
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>
+<view class='bg'></view>
+<view class='footer'>
+  <view class='head'>
+    <text decode='true'>—&nbsp;<text class='black'>联系我们</text>&nbsp;—</text>
+  </view>
+  <view class='img_div' bindtap='call_phone'>
+    <image src='/images/phone.png' class='phone_img'></image>
+    <view></view>
+    <text>0433-6648109</text>
+    <!-- <view class='border_cc'></view> -->
+    <view></view>
+    <text class='address_font'>吉林省长春市朝阳区长春工业大学林园校区</text>
+    <view></view>
+    <text class='address_font'>周一至周五</text>
+    <view></view>
+    <text class='address_font'>上午9:00-12:00 下午13:30-17:00</text>
+  </view>
+  <view class='footer_font'>
+    ©由工大经济管理学院于洋提供技术支持
+  </view>
+</view>
+<!-- 以下是对一个自定义组件的引用  top="{{top}}" left="{{left}}"  -->
+<view>
+  <component-tag-name top="{{component.top}}" left="{{component.left}}" bindmyevent='onMyEvent'></component-tag-name>
+</view>

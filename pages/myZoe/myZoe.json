@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationBarTextStyle": "white",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#5e9beb",
+    "usingComponents": {
+      "component-tag-name": "/components/customerservice/index"
+    }
+}

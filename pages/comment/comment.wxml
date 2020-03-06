@@ -1,0 +1,39 @@
+<!-- 待收货页面 -->
+<scroll-view class="scroll" scroll-y="true">
+  <view class='div_ex' wx:for="{{orderlist}}" wx:key='{{index}}'>
+    <view class='head'>
+      <text decode='true' class='font_3'>工大快查商家&nbsp; ></text>
+      <text class='font_4'>卖家已发货</text>
+    </view>
+    <view class='content'>
+      <view class='cart_container'>
+        <navigator url3="../details/details?id={{item.id}}">
+          <view>
+            <image class='item-image' src="{{item.img}}"></image>
+          </view>
+        </navigator>
+      </view>
+      <view class='book_title'>
+        <view class='div'>
+          <text decode='true' class='font_style'>¥{{item.price}}</text>
+        </view>
+        <view class='div'>
+          <text decode='true' class='font_style'>&nbsp;x&nbsp;{{item.num}}</text>
+        </view>
+        <!-- <view class='div'>
+          <text decode='true' class='font_style'>2018-1-1 10:09</text>
+        </view> -->
+      </view>
+    </view>
+    <view class='footer'>
+      <text class='font_1'>共1件商品 实付：<text class='font_2'>¥{{item.money}}</text></text>
+    </view>
+    <view class='but_div'>
+      <button class='buttonDown' bindtap='confirm' data-id='{{item.id}}'>确认收货</button>
+    </view>
+  </view>
+  <view wx:if="{{orderlist.length==0}}">
+  <view class='fff'></view>
+    <text class='nohave'>暂无待收货</text>
+  </view>
+</scroll-view>

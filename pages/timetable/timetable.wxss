@@ -1,0 +1,45 @@
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  color: rgb(148, 148, 148);
+  margin-left: 5px;
+}
+
+.center {
+  padding-left: 80px;
+}
+
+.txt1 {
+  white-space: pre-wrap;
+  font-size: 15px;
+  font-family: "宋体";
+  /* font-weight: bold; */
+}
+.txt3 {
+  white-space: pre-wrap;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: grey;
+  font-weight: bold;
+}
+.div {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #5e9beb;
+  border-radius: 50px;
+}
+
+.numdiv {
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.txt2{
+color: rgb(10, 168, 76);
+font-size: 15px;
+}
+.footer{
+  margin-left: 75px;
+  padding-top: 25px;
+}

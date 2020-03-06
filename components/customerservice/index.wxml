@@ -1,0 +1,5 @@
+<view class="firstView" catchtouchmove="setTouchMove" catchtouchend='setCoordinates' animation="{{anima}}" style="left: {{left||'89%'}};top: {{top||'50%'}};">
+  <view>
+    <image class='kehuImg' bindtap='makephone' src="/images/index.png"></image>
+  </view>
+</view>

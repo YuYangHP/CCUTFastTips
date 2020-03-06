@@ -1,0 +1,28 @@
+<view class='container bgcolorF6F6F6 '>
+  <view class='content'>
+    <view class='titleView'>
+      <text class='orderTitle'>订单信息</text>
+    </view>
+    <form class="page__bd" bindsubmit="formSubmit">
+      <view class='listView'>
+        <view class='formView'>
+          <label class='formLable'>姓名:</label>
+          <input bindinput='inputCar1' name='nick' class='fromInput' value='{{name}}' />
+        </view>
+        <view class='formView'>
+          <label class='formLable'>手机号码:</label>
+          <input bindinput='inputCar2' name='phone' class='fromInput' value='{{phone}}'/>
+        </view>
+        <view class='formView'>
+          <label class='formLable'>收货地址:</label>
+          <input bindinput='inputCar3' name='address' class='fromInput' value='{{address}}' />
+        </view>
+      </view>
+      <view class='textareaview'>
+        <label class='textLabel'>备注:</label>
+        <textarea name='note' class='formTextarea'></textarea>
+      </view>
+      <button class='submit' type="primary" form-type='submit'>提交订单</button>
+    </form>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">充值时间</view>
+    <!-- <view class="th">充值账号</view> -->
+    <view class="th ">充值金额</view>
+    <view class="th ">充值类型</view>
+  </view>
+  <block wx:for="{{list}}" wx:key="{{createtime}}">
+    <view class="tr bg-g" wx:if="{{index % 2==0}}">
+      <view class="td">{{item.createtime}}</view>
+      <!-- <view class="td">{{item.sno}}</view> -->
+      <view class="td">{{item.cardmoney}}元</view>
+      <view class="td">{{item.id}}</view>
+    </view>
+    <view class="tr" wx:else>
+           <view class="td">{{item.createtime}}</view>
+      <!-- <view class="td">{{item.sno}}</view> -->
+      <view class="td">{{item.cardmoney}}元</view>
+      <view class="td">{{item.id}}</view>
+    </view>
+  </block>
+</view>

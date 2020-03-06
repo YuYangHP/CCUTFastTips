@@ -1,0 +1,21 @@
+<view class='cen'>
+  <view class='head'>
+    <text class='text1' bindtap='back'>取消</text>
+    <text class='text2' bindtap='put'>发布</text>
+  </view>
+  <textarea placeholder="请输入内容..." auto-focus name="introduction" maxlength='300' bindinput='limit' value='{{txtContent}}' />
+  <!-- 显示字数 -->
+  <view class="clear">
+    <text style="color: #ccc; font-size: 14px; float: right;">{{current}} / {{max}} （最多可写300字）</text>
+  </view>
+  <view class='footer'>
+    <text class='choose'>长春工业大学交流吧</text>
+  </view>
+</view>
+<view class="section section_gap">
+  <radio-group class="radio-group" bindchange="radioChange">
+    <radio class="choose" bindtap="bindtap1" wx:for-items="{{items}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+      <text>{{item.value}}</text>
+    </radio>
+  </radio-group>
+</view>

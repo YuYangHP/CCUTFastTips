@@ -1,0 +1,30 @@
+<view class='content'>
+  <view class='headsize'> </view>
+  <view class='headerViewFirst'>
+    <view class='imgVieW'>
+      <view class='headerImg'>
+        <open-data type="userAvatarUrl" src='{{userInfo.avatarUrl}}'></open-data>
+      </view>
+    </view>
+    <view class='nickName'>
+      <open-data type="userNickName"></open-data>
+    </view>
+  </view>
+  <view class='iconcenter'>
+    <view class='iconsize'>
+    <image src='/images/yifabu.png' class='imgsize3' bindtap='published'></image>
+    <image src='/images/dsh.png' class='imgsize' bindtap='comment'></image>
+    <image src='/images/xiaoyuanka.png' class='imgsize4' bindtap='earn'></image>
+    <image src='/images/yue.png' class='imgsize2' bindtap='record'></image>
+  </view>
+  <view class='fontsize'>
+    <text class='fontstyle3' bindtap='published'>已发布</text>
+    <text class='fontstyle2' bindtap='comment'>待收货</text>
+    <text class='fontstyle' bindtap='earn'>校园卡余额</text>
+    <text class='fontstyle1' bindtap='record'>充值记录</text>
+  </view>
+  </view>
+</view>
+<view>
+  <component-tag-name top="{{component.top}}" left="{{component.left}}" bindmyevent='onMyEvent'></component-tag-name>
+</view>

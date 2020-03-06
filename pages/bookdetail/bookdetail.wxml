@@ -1,0 +1,19 @@
+
+<view class="card">
+  <view bindtap="onItemClick" class='div'>
+    <image class="image"  src="{{booklist.pic}}" />
+    <view class='con'>
+      <text class="title">书名：{{booklist.bookname}}
+      </text>
+      <text class="red">¥{{booklist.price}}
+      </text>
+    </view>
+  </view>
+        <text class="content">{{booklist.bookdesc}}</text> 
+        <view class='imgt'><image src='/images/cart.png' class='imgstyle' bindtap='insertcart'></image>
+</view>
+</view>
+<!-- 以下是对一个自定义组件的引用  top="{{top}}" left="{{left}}"  -->
+<view>
+  <component-tag-name top="{{component.top}}" left="{{component.left}}" bindmyevent='onMyEvent'></component-tag-name>
+</view>

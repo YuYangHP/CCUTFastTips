@@ -1,0 +1,17 @@
+ <view class='green'></view>
+<view class='white'></view>
+
+<!--使用animation属性指定需要执行的动画-->
+<view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">
+  <!--drawer content-->
+  <view class="drawer_title">您还没有登录，请先登录</view>
+  <view class="drawer_content">
+    <view class="top grid">
+      <input class="input_base input_h30 col-1" placeholder-class="phcolor" name="rName" placeholder="请输入学号" bindinput="mobileInputEvent"></input>
+    </view>
+    <view class="top grid">
+      <input class="input_base input_h30 col-1" name="mobile" type='password' placeholder-class="phcolor" placeholder="请输入密码" bindtap="touchstart2" bindblur="mobileInputEvent2"></input>
+    </view>
+  </view>
+  <button class="btn_ok" bindgetuserinfo="powerDrawer" data-statu="close"  open-type='getUserInfo' lang="zh_CN" >登录</button> 
+</view>

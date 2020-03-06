@@ -1,0 +1,21 @@
+<image src='/images/ccut1.png' class='img'></image>
+<view class='borderstyle'>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="section__title">
+      <text class='text1'>充值账号</text>
+      <input placeholder='请输入账号' type="number" class='in' placeholder-class="placeholderStyle" cursor-spacing="20px" bindinput="mobileInputEvent" value='{{txt}}'></input>
+    </view>
+    <view class="section__title">
+      <text class='text1'>充值密码</text>
+      <input placeholder='请输入账号' class='in' type='password' placeholder-class="placeholderStyle" cursor-spacing="20px" bindinput="mobileInputEvent2"></input>
+    </view>
+     <view class="section__title">
+      <text class='text1'>充值金额</text>
+      <input placeholder='请输入金额' type="number" class='in' placeholder-class="placeholderStyle" cursor-spacing="20px" bindinput="mobileInputEvent3"></input>
+    </view>
+    <view class="btn-area">
+      <button formType="submit" class='but' hover-class='btn_hover'>充值</button>
+      <button formType="reset" class='but' hover-class='btn_hover'>重置</button>
+    </view>
+  </form>
+</view>

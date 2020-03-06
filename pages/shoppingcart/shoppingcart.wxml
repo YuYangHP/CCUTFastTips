@@ -1,0 +1,46 @@
+<scroll-view class="scroll" scroll-y="true">
+  <view class="cart-box">
+    <!-- wx:for 渲染购物车列表 -->
+    <view wx:for="{{carts}}" wx:key='{{index}}' class='cart_container'>
+      <!-- wx:if 是否选择显示不同图标 -->
+      <!-- <icon wx:if="{{item.selected}}" class='item-select' type="success" color="#5e9beb" bindtap="selectList" data-index="{{index}}" /> -->
+      <!-- <icon wx:else type="circle" class='item-select' bindtap="selectList" data-index="{{index}}" /> -->
+      <!-- 点击商品图片可跳转到商品详情 -->
+      <navigator url="../details/details?id={{item.id}}">
+        <view>
+          <image class='item-image' src="{{item.pic}}"></image>
+        </view>
+      </navigator>
+      <view class='column'>
+        <text class='title'>{{item.bookname}}</text>
+        <view class='row'>
+          <text class='sku-price'>￥{{item.price}}</text>
+        </view>
+      </view>
+      <!-- 增加减少数量按钮 -->
+      <view class="sku">
+        <text bindtap="minusCount" data-index="{{index}}" decode='true' class='font' space="true">-&nbsp;&nbsp;</text>
+        <text decode='true' class='font' space="true">{{item.havenum}}</text>
+        <text bindtap="addCount" data-index="{{index}}" space="true" decode='true' class='font'>&nbsp;&nbsp;+  </text>
+      </view>
+      <!-- 删除按钮 -->
+      <text bindtap="deleteList" data-index="{{index}}" data-id="{{item.id}}"> × </text>
+    </view>
+    <view wx:if="{{carts.length==0}}">
+     <view class='fff'></view>
+      <text class='nohave'>暂无商品</text>
+    </view>
+  </view>
+</scroll-view>
+<!-- 底部操作栏 -->
+<view class="bottom_total">
+  <view class="bottom_line"></view>
+  <view class="row">
+    <!-- <icon wx:if="{{selectAllStatus}}" type="success_circle" class='icons' color="#5e9beb" bindtap="selectAll" /> -->
+    <!-- <icon wx:else type="circle" color="#5e9beb" class='icons'  bindtap="selectAll"/> -->
+    <!-- <text class="small_text">全选</text> -->
+    <text class='heji'>合计: </text>
+    <text class="price">￥{{totalPrice}}</text>
+    <button class="button-red" bindtap="toBuy" formType="submit">去结算</button>
+  </view>
+</view>

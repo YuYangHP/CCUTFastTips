@@ -1,0 +1,22 @@
+<view class='boi'>
+  <!-- <view class='bin'></view> -->
+  <view class='divstyle' wx:for="{{list}}" wx:key="{{id}}">
+    <view class='d2'>
+      <view class='time'>
+        <text class='timefont'>发布时间：{{item.createtime}}</text>
+      </view>
+      <text class='p1' decode='true'>{{item.content}}</text>
+    </view>
+    <view class='imgdiv'>
+      <view>
+        <image src='{{item.img}}' class='img3' bindtap='img' id='{{index}}' data-id='{{item.dis_id}}'></image>
+      </view>
+      <view>
+        <image src='{{item.img2}}' class='img3' id='{{item.id}}' bindtap='comment'></image>
+      </view>
+      <view>
+        <image src='{{item.img3}}' class='img3'id='{{item.id}}' data-id='{{index}}' bindtap='del'></image>
+      </view>
+    </view>
+  </view>
+</view>

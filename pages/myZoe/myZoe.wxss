@@ -1,0 +1,112 @@
+page {
+  height: 100%;
+}
+.container {
+  background-color: #f6f6f6;
+  height: 100%;
+}
+.headsize {
+  background-color: #5e9beb;
+  height: 40px;
+}
+.content {
+  width: 100%;
+  font-size: 28rpx;
+}
+.iconsize{
+  height: 115rpx;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.fontstyle{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30rpx;
+  padding-left: 90rpx;
+}
+.fontstyle1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30rpx;
+  padding-left: 70rpx;
+}
+.fontstyle3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30rpx;
+  padding-left: 50rpx;
+}
+.fontstyle2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30rpx;
+  padding-left: 80rpx;
+}
+.imgsize{
+  height: 60rpx;
+  width: 60rpx;
+  padding-left: 120rpx;
+  padding-right: 20rpx;
+  margin-top: 26rpx;
+}
+.imgsize2{
+  height: 60rpx;
+  width: 60rpx;
+  padding-left: 136rpx;
+  margin-top: 26rpx;
+}
+.imgsize3{
+  height: 60rpx;
+  width: 60rpx;
+  padding-left: 60rpx;
+  margin-top: 26rpx;
+}
+.imgsize4{
+  height: 60rpx;
+  width: 60rpx;
+  padding-left: 120rpx;
+  margin-top: 26rpx;
+}
+.iconcenter {
+  height: 90px;
+  border-bottom: 3px solid #f0eeee;
+}
+
+.headerViewFirst {
+  border-bottom: 3px solid #f0eeee;
+  height: 230rpx;
+}
+
+/* .headerView{
+   background-color: #F6F6F6;
+} */
+
+.imgVieW {
+  position: relative;
+  top: 50rpx;
+  left: 20rpx;
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  padding: 3rpx;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.headerImg {
+  width: 116rpx;
+  height: 116rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.nickName {
+  position: relative;
+  top: 50rpx;
+  left: 20rpx;
+  display: inline-block;
+  padding: 10rpx;
+  font-size: 36rpx;
+  height: 60rpx;
+}
+
+.bodycontent {
+  padding: 20rpx;
+}

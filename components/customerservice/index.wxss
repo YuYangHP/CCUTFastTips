@@ -1,0 +1,11 @@
+.firstView {
+  position: absolute;
+  height: 70rpx;
+  width: 70rpx;
+  /* padding: 10rpx; */
+  border-radius: 50%;
+}
+.kehuImg {
+  height: 70rpx;
+  width: 70rpx;
+}

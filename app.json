@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/myZoe/myZoe",
+    "pages/login/login",
+    "pages/shoppingcart/shoppingcart",
+    "pages/comment/comment",
+    "pages/bookdetail/bookdetail",
+    "pages/ccutlife/ccutlife",
+    "pages/put/put",
+    "pages/netcharge/netcharge",
+    "pages/cardcharge/cardcharge",
+    "pages/timetable/timetable",
+    "pages/published/published",
+    "pages/earn/earn",
+    "pages/record/record",
+    "pages/ccutpay/ccutpay",
+    "pages/details/details",
+    "pages/orderinfo/orderinfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#129deec0",
+    "navigationBarTitleText": "工大快查",
+    "navigationBarTextStyle": "black",
+    "backgroundColorBottom": "#EA7806"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye.png"
+      },
+      {
+        "pagePath": "pages/put/put",
+        "text": "发布",
+        "iconPath": "images/tianjia.png",
+        "selectedIconPath": "images/tianjia.png"
+      },
+      {
+        "pagePath": "pages/myZoe/myZoe",
+        "text": "我的",
+        "iconPath": "images/yonghu.png",
+        "selectedIconPath": "images/yonghu.png"
+      }
+    ]
+  }
+}

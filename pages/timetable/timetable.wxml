@@ -1,0 +1,81 @@
+<text class='title'>今日课程</text>
+<view class='div'>
+  <view class='numdiv'>
+    <text class='txt2'>1</text>
+  </view>
+  <view class='center'>
+    <text class='txt1'>1-17周(1-2节)
+</text>
+    <text class='txt1'>运筹学
+</text>
+    <text class='txt1'>赵宇航
+</text>
+  </view>
+  <view class='footer'>
+    <text class='txt3'>主楼101</text>
+  </view>
+</view>
+<view class='div'>
+  <view class='numdiv'>
+    <text class='txt2'>2</text>
+  </view>
+  <view class='center'>
+    <text class='txt1'>1-17周(1-2节)
+</text>
+    <text class='txt1'>运筹学
+</text>
+    <text class='txt1'>赵宇航
+</text>
+  </view>
+  <view class='footer'>
+    <text class='txt3'>主楼101</text>
+  </view>
+</view>
+<view class='div'>
+  <view class='numdiv'>
+    <text class='txt2'>3</text>
+  </view>
+  <view class='center'>
+    <text class='txt1'>1-17周(1-2节)
+</text>
+    <text class='txt1'>运筹学
+</text>
+    <text class='txt1'>赵宇航
+</text>
+  </view>
+  <view class='footer'>
+    <text class='txt3'>主楼101</text>
+  </view>
+</view>
+<view class='div'>
+  <view class='numdiv'>
+    <text class='txt2'>4</text>
+  </view>
+  <view class='center'>
+    <text class='txt1'>1-17周(1-2节)
+</text>
+    <text class='txt1'>运筹学
+</text>
+    <text class='txt1'>赵宇航
+</text>
+  </view>
+  <view class='footer'>
+    <text class='txt3'>主楼101</text>
+  </view>
+</view>
+<view class='div'>
+  <view class='numdiv'>
+    <text class='txt2'>5</text>
+  </view>
+  <view class='center'>
+    <text class='txt1'>1-17周(1-2节)
+</text>
+    <text class='txt1'>运筹学
+</text>
+    <text class='txt1'>赵宇航
+</text>
+  </view>
+  <view class='footer'>
+    <text class='txt3'>主楼101</text>
+  </view>
+</view>

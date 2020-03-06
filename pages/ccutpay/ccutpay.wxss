@@ -1,0 +1,119 @@
+/* pages/fillorder/fillorder.wxss */
+page{
+  height: 100%;
+}
+.container{
+  background-color: #F6F6F6;
+  height: 100%;
+}
+.content{
+  font-size: 30rpx;
+  background-color: #F6F6F6;
+  /* background-color: rgb(12, 12, 12); */
+  width: 100%;
+  height: 100%;
+}
+.titleView{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 20rpx 20rpx;
+  margin-bottom: 30rpx;
+}
+.orderImg{
+  height: 44rpx;
+  width: 34rpx;
+  margin-right: 20rpx;
+}
+.orderTitle{
+  color: #5e9beb;
+  font-size: 40rpx;
+}
+.page__bd{
+  height: 0rpx;
+}
+.listView{
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+}
+.formView{
+  display: flex;
+  align-items: center;
+  padding: 20rpx 30rpx;
+}
+.formLable{
+  padding: 0;
+  margin: 0;
+  width: 20%;
+}
+.fromInput{
+  margin-left: 30rpx;
+  display: inline-block;
+  border-bottom: 2rpx solid #DCDCDC;
+  width: 80%;
+}
+.mapLink{
+  color: #006699;
+  padding-bottom: 4rpx;
+  margin-left: 20rpx;
+  border-bottom: 2rpx solid #006699;
+}
+.formCheckbox{
+  margin-left: 40rpx;
+  zoom: 70%;
+}
+.moreImage{
+  height: 30rpx;
+  width: 30rpx; 
+}
+.formTextarea{
+  margin: 50rpx 0 0 20rpx;
+  height: 70%;
+  width: 70%;
+  /* border: 2rpx solid #23D34F; */
+  background-color: #FFFFFF;
+}
+.submit{
+  margin: 34rpx 0 24rpx 12%;
+  width: 76%;
+
+}
+button[type=primary] {
+color:#FFFFFF;
+background-color:#5e9beb;
+}
+.textareaview{
+  display: flex;
+  justify-content: flex-start;
+  margin: 30rpx 0 20rpx 0; 
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  height: 280rpx;
+  width: 97.4%;
+  padding: 10rpx; 
+}
+.textLabel{
+  margin-top: 30rpx;
+  margin-left: 10rpx;
+   background-color: #FFFF;
+}
+.validatasty{
+  position: absolute;
+  right: 50rpx;
+}
+.padding0{
+  padding: 0;
+}
+.paddingTopBot40rpx{
+  padding: 40rpx 0;
+}
+.marginTopBot40rpx{
+  margin: 20rpx 0;
+}
+.borderNone{
+  border: none;
+}
+.bgcolorF6F6F6{
+  background-color: #F6F6F6;
+  /* background-color: rgb(12, 12, 12); */
+}

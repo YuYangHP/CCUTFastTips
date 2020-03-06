@@ -1,0 +1,268 @@
+.gundongsize {
+  background-color: white;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+}
+
+.iconsize {
+  height: 120rpx;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.imgsize {
+  height: 60rpx;
+  width: 60rpx;
+  padding-left: 170rpx;
+  margin-top: 40rpx;
+}
+
+.imgsize1 {
+  height: 60rpx;
+  width: 60rpx;
+  padding-left: 120rpx;
+  margin-top: 40rpx;
+  padding-bottom: 10rpx;
+}
+
+.schoolsize {
+  height: 150px;
+}
+
+.fontstyle {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26rpx;
+  padding-left: 120rpx;
+}
+
+.fontstyle3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26rpx;
+  padding-left: 120rpx;
+}
+
+.fontstyle2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26rpx;
+  padding-left: 80rpx;
+}
+
+.xinwensize {
+  margin-top: 3px;
+  /* padding-top: 15px; */
+  background-color: white;
+}
+
+.biaoti {
+  padding-left: 250rpx;
+  height: 100rpx;
+  width: 240rpx;
+  /* color: #7e7878;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.gonggao {
+  margin-top: 3px;
+  background-color: white;
+  height: 30px;
+}
+
+.fontsize {
+  background-color: white;
+}
+
+.winwenimg {
+  height: 60px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.sellimg {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.divsize {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  border: 1px solid rgb(242, 243, 243);
+}
+
+.ppdiv {
+  width: 800px;
+  padding-left: 10px;
+}
+
+.xinwenfontsize {
+  font-size: 14px;
+  color: #616060;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.swiper_container {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  height: 55rpx;
+  width: 80vw;
+}
+
+.swiper_item {
+  color: #979696;
+  font-size: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.sell {
+  display: flex;
+  padding-top: 30rpx;
+}
+
+.sell1 {
+  width: 240rpx;
+  height: 300rpx;
+  /* display: flex; *//* margin: 20rpx; */
+  display: inline-block;
+}
+
+.bookimg {
+  width: 60%;
+  height: 70%;
+  border-radius: 5px;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  padding: 20rpx;
+  border: 1px solid #e6e6e6;
+}
+
+.imgh {
+  width: 250rpx;
+  height: 280rpx;
+  text-align: center;
+}
+
+.sellfontdiv {
+  margin-left: 50rpx;
+}
+
+.sellfontdiv2 {
+  width: 100%;
+  height: 20%;
+  /* margin-left: 120rpx; */
+}
+
+.sellfontdiv3 {
+  margin-left: 100rpx;
+}
+
+.po {
+  display: flex;
+}
+
+.pricefont {
+  font-size: 28rpx;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(8, 4, 4);
+}
+
+.pricefont2 {
+  font-size: 28rpx;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(1, 1, 2);
+}
+
+.scroll-header {
+  display: flex;
+  white-space: nowrap;
+}
+
+.font22 {
+  font-size: 25rpx;
+  color: #000;
+  /* padding-left: 60rpx; */
+  text-align: center;
+}
+
+.font33 {
+  font-size: 25rpx;
+  color: rgb(83, 122, 248);
+  /* padding-left: 80rpx; */
+  text-align: center;
+}
+
+.bg {
+  background-color: #f7f5f5;
+  height: 7rpx;
+  width: 100%;
+  margin-top: 100rpx;
+}
+
+.footer {
+  height: 400rpx;
+  width: 100%;
+}
+
+.head {
+  padding-top: 20rpx;
+  height: 16%;
+  width: 100%;
+  color: #ccc;
+  text-align: center;
+  font-size: 30rpx;
+  border-bottom: 1px solid rgb(233, 230, 230);
+}
+
+.black {
+  color: rgb(31, 30, 30);
+  padding-left: 9rpx;
+  padding-right: 9rpx;
+}
+
+.img_div {
+  text-align: center;
+  padding-top: 40rpx;
+}
+
+.phone_img {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.border_cc {
+  width: 47%;
+  height: 2px;
+  background-color: #ebebeb;
+  margin-left: 205rpx;
+}
+
+.address_font {
+  font-size: 13px;
+  color: rgb(116, 113, 113);
+}
+
+.footer_font {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 35rpx;
+  font-size: 13px;
+  text-align: center;
+  color: rgb(116, 113, 113);
+}

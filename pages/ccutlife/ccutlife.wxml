@@ -1,0 +1,54 @@
+<view class="swiper-tab">
+  <view class="swiper-tab-item {{currentTab==0?'active1':''}}" data-current="0" bindtap="clickTab">工大热门</view>
+  <view class="swiper-tab-item {{currentTab==1?'active2':''}}" data-current="1" bindtap="clickTab">失物招领</view>
+</view>
+<swiper current="{{currentTab}}" duration="300" bindchange="swiperTab" class='frist'>
+  <swiper-item>
+    <view class='head'>
+      <image src='/images/search.png' class='img' bindtap='send'>
+      </image>
+      <input placeholder='搜索帖子' placeholder-class="placeholderStyle" cursor-spacing="20px" class='inpuu' bindinput='inputstyle'></input>
+    </view>
+    <view class='divstyle' wx:for="{{list}}" wx:key="{{id}}" wx:if="{{item.islost==0}}">
+      <view class='time'>
+        <text class='timefont'>发布时间：{{item.createtime}}</text>
+      </view>
+      <text class='p1' decode='true'>{{item.content}}</text>
+      <view class='imgdiv'>
+        <view>
+          <image src='{{item.img}}' class='img3' bindtap='img' id='{{index}}' data-id='{{item.dis_id}}'></image>
+        </view>
+        <view>
+          <image src='{{item.img2}}' class='img3' id='{{item.id}}' bindtap='comment'></image>
+        </view>
+      </view>
+    </view>
+    <view class='nosend' wx:if="{{list.length==0}}">
+      <text class='p1'> 暂无热门信息</text>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='head'>
+      <image src='/images/search.png' class='img' bindtap='send2'>
+      </image>
+      <input placeholder='搜索帖子' placeholder-class="placeholderStyle" cursor-spacing="20px" class='inpuu' bindinput='inputstyle2'></input>
+    </view>
+    <view class='divstyle' wx:for="{{list2}}" wx:key="{{id}}">
+      <view class='time'>
+        <text class='timefont'>发布时间：{{item.createtime}}</text>
+      </view>
+      <text class='p1' decode='true'>{{item.content}}</text>
+      <view class='imgdiv'>
+        <view>
+          <image src='{{item.img}}' class='img3' bindtap='img2' id='{{index}}' data-id='{{item.dis_id}}'></image>
+        </view>
+        <view>
+          <image src='{{item.img2}}' class='img3' id='{{item.id}}' bindtap='comment'></image>
+        </view>
+      </view>
+    </view>
+    <view class='nosend' wx:if="{{list2.length==0}}">
+      <text class='p1'> 暂无热门信息</text>
+    </view>
+  </swiper-item>
+</swiper>
