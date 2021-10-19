@@ -1,4 +1,5 @@
-let BASE_Server = "http://192.168.2.127:80/BookMybatis/"
+let BASE_Server = "http://121.41.107.125:8080/BookMybatis_war/"
+//let BASE_Server = "http://192.168.110.114:8000/BookMybatis_war_exploded/"
 // let BASE_Server = "http://192.168.2.127:80/BookMybatis_war_exploded/"
 // let BASE_Server = "http://10.63.1.57:8080/BookMybatis/"
 function send_post(url, data, successfun) {
